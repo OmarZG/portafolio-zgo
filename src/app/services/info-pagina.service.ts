@@ -22,7 +22,8 @@ export class InfoPaginaService {
   private cargaInfo() {
 
     // Leer archivo JSON
-    this.http.get('assets/data/data-pagina.json').subscribe( (resp: InfoPagina) =>  {
+    this.http.get('assets/data/data-pagina.json')
+             .subscribe( (resp: InfoPagina) =>  {
     this.cargada = true;
     this.info = resp;
 
@@ -35,7 +36,6 @@ export class InfoPaginaService {
     this.http.get('https://angula-base.firebaseio.com/equipo.json').subscribe( ( resp: any[] ) =>  {
 
       this.equipo = resp;
-      console.log( resp );
 
       });
   }
