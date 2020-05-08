@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   <title>Portafolio</title>
-  <!--<base href="/">-->
+  <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/svg+xml" href="assets/img/urku-ico.svg">
   <link rel="stylesheet" href="assets/css/aurora-pack.min.css">
   <link rel="stylesheet" href="assets/css/aurora-theme-base.min.css">
   <link rel="stylesheet" href="assets/css/urku.css">
-</head>
+<link rel="stylesheet" href="styles.39da6b9510b2d94ab5dc.css"></head>
 <body class="top-fixed">
   <app-root></app-root>
-</body>
+<script type="text/javascript" src="runtime.5959ec9531e22bc6ae82.js"></script><script type="text/javascript" src="es2015-polyfills.d669a9df90af0f12d179.js" nomodule></script><script type="text/javascript" src="polyfills.eb0596823492af2b4693.js"></script><script type="text/javascript" src="main.d6ff56906ec27a5d45c5.js"></script></body>
 <script src="assets/js/svg4everybody.min.js"></script>
 <script>svg4everybody();</script>
 </html>
